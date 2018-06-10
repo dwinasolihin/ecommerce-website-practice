@@ -10,9 +10,11 @@ p {
 }
 
 /* TODO: size images manually so this is not necessary */
+/* Used Preview on Mac to manually size images (300x300 px, 72 resolution)
 img {
   max-height: 20rem;
 }
+*/
 
 /***************** NAV *****************/
 
