@@ -10,17 +10,6 @@ p {
   color: #2d2d2d;
 }
 
-/****** MEDIA QUERIES ******/
-@media screen {
-  body {
-        background-color: lightgreen;
-    }
-  
-  h1 .img {
-    display: none;
-  }
-}
-
 /* TODO: size images manually so this is not necessary */
 /* Used Preview on Mac to manually size images (300x300 px, 72 resolution)
 img {
@@ -113,4 +102,15 @@ h3 {
   margin-left: auto;
   margin-right: auto;
   display: block;
+}
+
+/****** MEDIA QUERIES ******/
+@media screen {
+  body {
+        background-color: lightgreen;
+    }
+  
+  h1 .img {
+    display: none;
+  }
 }
