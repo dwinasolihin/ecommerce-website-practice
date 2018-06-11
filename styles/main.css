@@ -28,11 +28,6 @@ nav{
 }
 
 /**************** HERO *****************/
-
-header img {
-  max-height: 6rem;
-}
-
 h1 .logo-w {
   font-size: 3.5rem;
 }
@@ -54,7 +49,6 @@ aside {
 }
 
 /**************** ASIDE ****************/
-
 input[type="submit"] {
   padding: .25rem;
   background-color: #3D7FCF;
@@ -65,7 +59,6 @@ input[type="submit"] {
 }
 
 /*********** PRODUCTS SECTION ***********/
-
 section {
   padding: 0.75rem;
 }
@@ -116,4 +109,7 @@ h3 {
   body {
         background-color: lightgreen;
     }
+  h1 .img {
+    display: none;
+  }
 }
