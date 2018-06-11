@@ -1,6 +1,7 @@
 body {
   font-size: 100%;
   font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
+  background: linear-gradient(to bottom, #cbe7f5 0%, #33ccff 100%);
 }
 
 p {
@@ -108,4 +109,11 @@ h3 {
   margin-left: auto;
   margin-right: auto;
   display: block;
+}
+
+/****** MEDIA QUERIES ******/
+@media only screen and (max-device-width: 480px) {
+  body {
+        background-color: lightgreen;
+    }
 }
