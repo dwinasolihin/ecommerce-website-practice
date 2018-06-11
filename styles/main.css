@@ -103,14 +103,3 @@ h3 {
   margin-right: auto;
   display: block;
 }
-
-/****** MEDIA QUERIES ******/
-@media screen {
-  body {
-        background-color: lightgreen;
-    }
-  
-  h1 .img {
-    display: none;
-  }
-}
