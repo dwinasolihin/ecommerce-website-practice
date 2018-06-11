@@ -103,3 +103,46 @@ h3 {
   margin-right: auto;
   display: block;
 }
+
+/*********** MEDIA QUERIES SECTION ***********/
+@media screen and (max-width: 400px) {
+  body {
+    background: linear-gradient(to bottom, #90EE90 0%, #008000 100%);
+  }
+  
+  nav {
+    background-color: floralwhite;
+    font-size: 1em;
+    margin-right: 2.9em;
+    margin-left: 2.9em;
+	padding: 0;  
+    text-align: center;
+	text-decoration: none;
+  } 
+  
+  nav ul{
+    margin: 0;
+    padding: .10em;
+  }
+  
+  nav li {
+    background-color: lightblue;
+    border-radius: 1em;
+    margin-top: 1em;
+    padding: .60em;
+    list-style: none;
+  }
+  
+  nav a {
+    padding: 1em;
+    text-decoration: none;
+  }
+  
+  .logo-title-area img {
+    display: none;
+  }
+  
+  form {
+    display: none;
+  }
+}
